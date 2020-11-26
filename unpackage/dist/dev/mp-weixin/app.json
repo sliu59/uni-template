@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/webView/webView"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#F5A623",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "height": "50px",
+    "fontSize": "10px",
+    "iconWidth": "22px",
+    "spacing": "3px",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/img/tabbar_index.png",
+        "selectedIconPath": "static/img/tabbar_index_active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/webView/webView",
+        "iconPath": "static/img/tabbar_myself.png",
+        "selectedIconPath": "static/img/tabbar_myself_active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "合生活需要获取你的地理位置以便提供更精准的服务"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

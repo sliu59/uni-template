@@ -1,0 +1,1 @@
+<view class="accredit-page"><image class="indexBg" src mode="widthFix"></image><view class="btnTip"></view><button class="accredit-btn" open-type="getUserInfo" withCredentials="true" lang="zh_CN" data-event-opts="{{[['getuserinfo',[['wxGetUserInfo',['$event']]]]]}}" bindgetuserinfo="__e">立即体验</button></view>
